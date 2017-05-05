@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/tv_action"
+        style="@style/cell" />
+    <TextView
+        android:id="@+id/tv_type"
+        style="@style/cell" />
+    <TextView
+        android:id="@+id/tv_order"
+        style="@style/cell" />
+    <TextView
+        android:id="@+id/tv_price"
+        style="@style/cell" />
+    <TextView
+        android:id="@+id/tv_domain"
+        style="@style/cell" />
+    <TextView
+        android:id="@+id/tv_step"
+        style="@style/cell" />
+    <TextView
+        android:id="@+id/tv_is_displayed"
+        style="@style/cell" />
+    <TextView
+        android:id="@+id/tv_invoicing_type"
+        style="@style/cell" />
+    <TextView
+        android:id="@+id/tv_days_count"
+        style="@style/cell" />
+    <TextView
+        android:id="@+id/tv_start_at"
+        style="@style/cell" />
+    <TextView
+        android:id="@+id/tv_end_at"
+        style="@style/cell" />
+    <TextView
+        android:id="@+id/tv_cost_by_day"
+        style="@style/cell" />
+    <TextView
+        android:id="@+id/tv_project_manager"
+        style="@style/cell" />
+    <TextView
+        android:id="@+id/tv_product_owner"
+        style="@style/cell" />
+    <TextView
+        android:id="@+id/tv_product_user"
+        style="@style/cell" />
+</TableRow>

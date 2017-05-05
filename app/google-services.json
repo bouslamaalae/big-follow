@@ -1,0 +1,71 @@
+{
+  "project_info": {
+    "project_number": "975825512150",
+    "project_id": "bigfollow-ac120"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:975825512150:android:4f4ba0a1e425a156",
+        "android_client_info": {
+          "package_name": "fr.univ_nantes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "975825512150-m24at5mshrkp4us27cik8t01retgh9im.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD12vKVd0nN2tP5kiLiNTocneaG9FBhwA4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:975825512150:android:52e6fd45caa9c9de",
+        "android_client_info": {
+          "package_name": "fr.univ_nantes.bigfollow"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "975825512150-m24at5mshrkp4us27cik8t01retgh9im.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD12vKVd0nN2tP5kiLiNTocneaG9FBhwA4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

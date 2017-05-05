@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_project_action_list"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="fr.univ_nantes.bigfollow.ProjectActionListActivity">
+
+    <include layout="@layout/toolbar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:orientation="vertical">
+
+
+
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:scrollbars="horizontal|vertical">
+            <HorizontalScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scrollbars="horizontal|vertical">
+                <TableLayout
+                    android:id="@+id/tl_project_actions"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/colorPrimary"
+                        android:gravity="center_vertical"
+                        style="@style/header">
+                        <TextView
+                            android:text="@string/action"
+                            style="@style/headerCell" />
+                        <TextView
+                            android:text="@string/type"
+                            style="@style/headerCell" />
+                        <TextView
+                            android:text="@string/order"
+                            style="@style/headerCell" />
+                        <TextView
+                            android:text="@string/price"
+                            style="@style/headerCell" />
+                        <TextView
+                            android:text="@string/domain"
+                            style="@style/headerCell" />
+                        <TextView
+                            android:text="@string/step"
+                            style="@style/headerCell" />
+                        <TextView
+                            android:text="@string/is_displayed"
+                            style="@style/headerCell" />
+                        <TextView
+                            android:text="@string/invoicing_type"
+                            style="@style/headerCell" />
+                        <TextView
+                            android:text="@string/days_count"
+                            style="@style/headerCell" />
+                        <TextView
+                            android:text="@string/start_at"
+                            style="@style/headerCell" />
+                        <TextView
+                            android:text="@string/end_at"
+                            style="@style/headerCell" />
+                        <TextView
+                            android:text="@string/cost_by_day"
+                            style="@style/headerCell" />
+                        <TextView
+                            android:text="@string/project_manager"
+                            style="@style/headerCell" />
+                        <TextView
+                            android:text="@string/product_owner"
+                            style="@style/headerCell" />
+                        <TextView
+                            android:text="@string/product_user"
+                            style="@style/headerCell" />
+                    </TableRow>
+                </TableLayout>
+            </HorizontalScrollView>
+        </ScrollView>
+
+    </LinearLayout>
+
+</LinearLayout>
