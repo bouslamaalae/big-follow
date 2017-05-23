@@ -2,12 +2,11 @@
 
 Projet de développement d'une **application Android**, dans le cadre du module de **Processus de développement** en **Master 2 MIAGE** parcours ISI.
 
-**Groupe C** composé de :
-- Florian BOUSSEAUD
-- Alexandre CALVO
-- Eflamm OLLIVIER
-- Arthur ROSSIGNOL
-- Bertrand TISSIER
+**Groupe A** composé de :
+- Boisteux Denis
+- Bouslama Alae-Eddine
+- Megnic Cedric
+- Stiti Celia
 
 ## Installation de l'environnement de développement
 
@@ -74,7 +73,6 @@ Une fois signée, votre APK est prête à être installée sur un terminal Andro
 
 Vous avez besoin de vous [inscrire] sur le Google Play Store en tant que développeur.
 
-> **Note** : les frais d'inscription s'élèvent à 25$ USD.
 
 [Android Studio]: <https://developer.android.com/studio/index.html>
 [Android Studio - Build an unsigned APK and sign it manually]: <https://developer.android.com/studio/publish/app-signing.html#sign-manually>
